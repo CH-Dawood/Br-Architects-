@@ -6,6 +6,8 @@
 header {
     z-index: 1000;
     position: sticky;
+    top: 0;
+    box-shadow: 6px 6px 6px darkgray;
 }
 #br-text{
     opacity: 0.85;
