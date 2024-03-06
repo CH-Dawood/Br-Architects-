@@ -3,9 +3,20 @@
     min-height: 80vh;
     background-position: bottom center;
 }
+header {
+    z-index: 1000;
+    position: sticky;
+}
 #br-text{
     opacity: 0.85;
 }
 #About-section img{
 filter: grayscale(75%);
+}
+#button{
+    border-radius: 0px;
+}
+#button :hover{
+    background-color: white;
+    color: black;
 }

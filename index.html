@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="position-sticky">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light position-sticky">
             <div class="container">
                 <a class="navbar-brand" href="#"><b>BR</b> Architects</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -25,13 +25,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Projects</a>
+                            <a class="nav-link " aria-current="page" href="#project-section">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#About-section">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                            <a class="nav-link" href="#contact-section">Contact</a>
                         </li>
                     </ul>
 
@@ -184,7 +184,8 @@
                             <img src="assets/images/team2.jpg" alt="team member">
                             <h4 class="mt-3">Jhon Doe</h4>
                             <p class="fw-light">CEO &amp; Founder</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint porro dicta eaque libero</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint porro dicta eaque libero
+                            </p>
                             <button class="border-0 mb-3">contact</button>
                         </div>
 
@@ -195,7 +196,8 @@
                             <img src="assets/images/team1.jpg" alt=" brick house">
                             <h4 class="mt-3">Jane Doe</h4>
                             <p class="fw-light">Architect</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint porro dicta eaque libero</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint porro dicta eaque libero
+                            </p>
                             <button class="border-0 mb-3">contact</button>
                         </div>
 
@@ -206,7 +208,8 @@
                             <img src="assets/images/team3.jpg" alt="Renovated">
                             <h4 class="mt-3">Mike Ross</h4>
                             <p class="fw-light">Architect</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint porro dicta eaque libero</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint porro dicta eaque libero
+                            </p>
                             <button class="border-0 mb-3">contact</button>
                         </div>
 
@@ -217,7 +220,8 @@
                             <img src="assets/images/team4.jpg" alt=" Barn house">
                             <h4 class="mt-3">Dane Star</h4>
                             <p class="fw-light">Architect</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint porro dicta eaque libero</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint porro dicta eaque libero
+                            </p>
                             <button class="border-0 mb-3">contact</button>
                         </div>
 
@@ -226,13 +230,68 @@
                 </div>
             </div>
         </div>
+        <!-- contact-section -->
+
+        <div id="contact-section" class="py-5">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="column">
+                        <h3>Contact</h3>
+                        <hr>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="row mb-3">
+
+                    <form>
+                        <div class="col-12 mb-3">
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-default" placeholder="Name">
+                        </div>
+
+                        <div class="col-12 mb-3">
+                            <input type="email" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-default" placeholder="Email">
+                        </div>
+
+                        <div class="col-12 mb-3">
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-default" placeholder="Subject">
+                        </div>
+
+                        <div class="col-12 mb-3">
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-default" placeholder="Comment">
+                        </div>
+                    </form>
+
+                    <div class="col-12">
+                        <button class="btn btn-dark" id="button">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- map -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="assets/images/map.jpg" alt="Map" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
     </main>
 
-    <footer>
-        <div class="container text-align-center">
+    <footer class="bg-dark mt-3 py-3">
+        <div class="container">
             <div class="row">
-                <div class="column">
-                    <p>&copy;All Rights Reserved.</p>
+                <div class="column text-align-center">
+                    <p class="text-white mb-0 text-center ">&copy;All Rights Reserved.</p>
+                    <p class="text-white text-center fw-light">Made By CH Dawood Arif</p>
                 </div>
             </div>
         </div>
