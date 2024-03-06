@@ -1,0 +1,11 @@
+.hero-section{
+    background-image: url(../assets/images/architect.jpg);
+    min-height: 80vh;
+    background-position: bottom center;
+}
+#br-text{
+    opacity: 0.85;
+}
+#About-section img{
+filter: grayscale(75%);
+}
