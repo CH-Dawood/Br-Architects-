@@ -27,7 +27,3 @@ filter: grayscale(75%);
     color: black;
     transition: 0.5s;
 }
-#projectsh:hover{
-    background-color: black;
-    color: aliceblue;
-}
